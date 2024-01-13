@@ -1,0 +1,5 @@
+The contents of the new file `error_logs.txt` will contain the error logs from the failed GitHub Actions workflow. The logs will be redirected to this file using the command `pytest > error_logs.txt 2>&1`. This command redirects the standard output and error streams of the `pytest` command to the `error_logs.txt` file.
+
+The `error_logs.txt` file will be created in the root directory of the repository and will store the error logs for further analysis and troubleshooting.
+
+Commit message: "feat/fix: Add error_logs.txt to store error logs"
