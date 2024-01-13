@@ -109,7 +109,7 @@ The code released in v2.5.0 is functionally identical to that of v2.5.0b1.
 - ERROR: Failed to execute GitHub Actions workflow.
 - Repository: https://github.com/pydantic/pydantic/releases/tag/v2.5.1
 - Job Name: Your_Job_Name
-- Error Message: <Add error message here>
+- Error Message: <error message>
 ```
 
 #### `pydantic`
