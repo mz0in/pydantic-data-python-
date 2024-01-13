@@ -25,4 +25,4 @@ jobs:
 
       - name: Print error message on failure
         if: always()
-        run: echo 'There was a failure in the previous step'
+        run: python error_handling.py
