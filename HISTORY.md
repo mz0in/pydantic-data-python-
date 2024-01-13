@@ -105,6 +105,13 @@ The code released in v2.5.0 is functionally identical to that of v2.5.0b1.
 
 ### New Contributors
 
+```bash
+- ERROR: Failed to execute GitHub Actions workflow.
+- Repository: https://github.com/pydantic/pydantic/releases/tag/v2.5.1
+- Job Name: Your_Job_Name
+- Error Message: <Add error message here>
+```
+
 #### `pydantic`
 * @schneebuzz made their first contribution in [#7699](https://github.com/pydantic/pydantic/pull/7699)
 * @edoakes made their first contribution in [#7780](https://github.com/pydantic/pydantic/pull/7780)
