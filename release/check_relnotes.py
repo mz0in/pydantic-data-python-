@@ -15,10 +15,15 @@ if __name__ == '__main__':
     labels = [
         label['name']
         for label in event['pull_request']['labels']
-        if label['name'].startswith('relnotes-') or label['name'] == 'documentation'
+        if label['name'].startswith('relnotes-') or label['name'] == 'documentation' or label['name'] == 'documentation'
     ]
 
     if not labels:
+        print(
+            'No suitable label found, please add either one of the `relnotes-` or `documentation` labels.',
+            file=sys.stderr,
+        )
+        exit(1)
         print(
             'No suitable label found, please add either one of the `relnotes-` or `documentation` labels.',
             file=sys.stderr,
