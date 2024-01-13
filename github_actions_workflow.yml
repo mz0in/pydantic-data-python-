@@ -21,7 +21,8 @@ jobs:
           python-version: 3.9
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install --no-cache-dir --prefer-binary -r requirements.txt --no-deps
+          pip freeze
 
       - name: Run tests
         run: |
