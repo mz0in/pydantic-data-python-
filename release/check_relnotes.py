@@ -15,7 +15,7 @@ if __name__ == '__main__':
     labels = [
         label['name']
         for label in event['pull_request']['labels']
-        if label['name'].startswith('relnotes-') or label['name'] == 'documentation'
+        if label['name'].startswith('relnotes-') or label['name'] == 'documentation' or label['name'] == 'documentation'
     ]
 
     if not labels:
