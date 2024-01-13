@@ -24,6 +24,11 @@ if __name__ == '__main__':
             file=sys.stderr,
         )
         exit(1)
+        print(
+            'No suitable label found, please add either one of the `relnotes-` or `documentation` labels.',
+            file=sys.stderr,
+        )
+        exit(1)
 
     if len(labels) > 1:
         print(f'Multiple relnotes labels found: `{"`, `".join(labels)}`', file=sys.stderr)
